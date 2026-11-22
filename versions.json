@@ -2,12 +2,37 @@
   "schema_version": 1,
   "releases": [
     {
+      "tag_name": "v1.1.1",
+      "name": "觅wan 1.1.1",
+      "published_at": "2026-11-22",
+      "body": "正式版：工程名_MMDD_三位编号、官网完整查号；GitHub版本选择、更新与回退；备份校验与独立离线恢复。修复Windows深目录长路径兼容，保留授权、设置和任务队列。",
+      "draft": false,
+      "prerelease": false,
+      "assets": [
+        {
+          "name": "miwan-1.1.1.zip",
+          "size": 14025644,
+          "browser_download_url": "https://github.com/rodneydavis7167331703/mi_pix/releases/download/v1.1.1/miwan-1.1.1.zip"
+        },
+        {
+          "name": "update.json",
+          "size": 293,
+          "browser_download_url": "https://github.com/rodneydavis7167331703/mi_pix/releases/download/v1.1.1/update.json"
+        },
+        {
+          "name": "SHA256.txt",
+          "size": 83,
+          "browser_download_url": "https://github.com/rodneydavis7167331703/mi_pix/releases/download/v1.1.1/SHA256.txt"
+        }
+      ]
+    },
+    {
       "tag_name": "v1.1.0",
       "name": "觅wan 1.1.0",
       "published_at": "2026-11-22",
       "body": "新增工程名_MMDD_三位编号，核对官网已有画布后续号；GitHub版本选择、升级与回退；校验、备份、失败恢复及独立离线恢复。保留账号授权、配置和任务队列，切换后重启生效。",
       "draft": false,
-      "prerelease": false,
+      "prerelease": true,
       "assets": [
         {
           "name": "miwan-1.1.0.zip",
